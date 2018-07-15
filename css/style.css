@@ -1,0 +1,320 @@
+* {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+body {
+    width: 100%;
+    float: left;
+    margin: 0;
+}
+div#first-page-container {
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    z-index: 998;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+main {
+    width: 100%;
+    min-height: 400px;
+    float: left;
+    background-color: #f2e1e1;
+}
+.page {
+	width: 100%;
+	float: left;
+}
+.first {
+    min-height: 742px;
+	background: url("../wedding 2.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+footer {
+    width: 100%;
+    float: left;
+    height: 140px;
+}
+div#first-page-container h1 {
+    font-size: 80px;
+}
+div#first-page-container h2 {
+    font-size: 26px;
+    letter-spacing: 8px;
+}
+header {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    background-color: rgba(253, 214, 199, 0.38);
+}
+nav {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 1200px;
+}
+div#navbar-container {
+    width: 100%;
+    float: left;
+    height: 50px;
+}
+div#navbar-container a {
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    font-weight: 600;
+}
+div#navbar-container a:hover {
+	color: rgb(0, 0, 0);
+}
+div#second-page-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+div#second-page-container h1 {
+    text-align: center;
+	text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.38);
+    color: #565656;
+    margin: 40px 0;
+    padding-top: 20px;
+}
+div#image-container {
+    width: 100%;
+    height: 580px;
+    background: url(../wedding-couple.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 6px;
+    border: 2px solid #80808042;
+}
+div#second-page-container p {
+    margin: 40px 0;
+    font-style: italic;
+}
+div#button-container {
+    width: 100%;
+    text-align: center;
+}
+div#button-container button {
+	border: 1px solid rgba(255, 255, 255, 0.38);
+    border-radius: 6px;
+    height: 50px;
+    margin: 20px 0 60px 0;
+    color: white;
+    font-size: 16px;
+    background-color: black;
+    width: 30%;
+    cursor: pointer;
+}
+div#button-container a {
+    text-decoration: none;
+    color: white;
+}
+div#button-container button:hover {
+    color: black;
+    background-color: gray;
+}
+div#introduction-third-page {
+	width: 100%;
+    float: left;
+    background: url("../bouquet.jpg") no-repeat center;
+    background-size: cover;
+    opacity: 0.7;
+    height: 600px;
+    text-align: center;
+}
+div#introduction-third-page h1 {
+    margin: 250px 0 20px 0;
+    font-size: 60px;
+    color: white;
+    text-shadow: 3px 2px 2px black;
+}
+div#introduction-third-page h4 {
+    color: white;
+    text-shadow: 3px 2px 2px black;
+    font-size: 44px;
+    margin: 0 0 40px 0;
+}
+div#third-page-container {
+	width: 100%;
+	float: left;
+}
+div#third-page-container-inner-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+div#third-page-container-inner-wrapper h1 {
+    text-align: center;
+	text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.38);
+    color: #565656;
+    margin: 40px 0;
+    padding-top: 20px;
+}
+div#the-wedding-img-container {
+	width: 100%;
+	height: 700px;
+	background: url("../bucovina-salon.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 6px;
+}
+div#when-where-wrapper {
+    float: left;
+    width: 100%;
+    margin: 60px 0 40px 0;
+}
+div#when-container, div#where-container {
+    float: left;
+    width: 60%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+div#when-container {
+    width: 40%;
+}
+.page.fifth {
+    height: 360px;
+    background-color: #f8c8c8ad;
+    text-align: center;
+}
+div#footer-container {
+    height: 90px;
+    background-color: #008000a8;
+    font-size: 22px;
+    text-align: center;
+}
+div#footer-container p {
+    margin: 0 auto;
+    padding: 32px;
+}
+div#footer-container a {
+    cursor: pointer;
+}
+div#footer-container a:hover {
+    color: #ffbbbb;
+} 
+div#fifth-page-container h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.38);
+    color: #565656;
+    margin: 40px 0;
+    padding-top: 20px;
+    font-size: 50px;
+}
+div#fifth-page-container h4 {
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 4px;
+    margin: 30px 0px;
+}
+button#respond-btn {
+    border: 1px solid rgba(255, 255, 255, 0.38);
+    border-radius: 6px;
+    height: 60px;
+    margin: 30px 0 60px 0;
+    color: white;
+    font-size: 30px;
+    background-color: #f44336;
+    width: 20%;
+    cursor: pointer;
+}
+button#respond-btn:hover {
+    color: black;
+    background-color: gray;
+}
+form#modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #888888bd;
+}
+div#modal-container {
+    background-color: #fefefe;
+    margin: 10% auto 15% auto;
+    border: 1px solid #888;
+    width: 60%;
+    height: 460px;
+    position: relative;
+}
+div#modal-container h1 {
+    clear: both;
+    text-align: center;
+    text-shadow: 2px 2px 2px #c0c0c0;
+    color: #565656;
+    font-size: 52px;
+    letter-spacing: 6px;
+}
+input[type="text"] {
+    width: 80%;
+    height: 40px;
+    border: 1px solid #808080a8;
+    border-radius: 4px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+p {
+    font-style: italic;
+    font-size: 20px;
+}
+div#modal-btn-container button {
+    border: 1px solid rgba(255, 255, 255, 0.38);
+    border-radius: 4px;
+    height: 60px;
+    margin: 18px 1px 40px 1px;
+    color: white;
+    font-size: 26px;
+    width: 40%;
+    cursor: pointer;
+}
+div#modal-btn-container button:hover {
+    color: black;
+    background-color: gray;
+}
+button#green-btn {
+    background-color: #4caf50;
+}
+button#red-btn {
+    background-color: #f44336;
+}
+i.fa.fa-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 26px;
+    cursor: pointer;
+}
+div#location-container {
+    width: 100%;
+    float: left;
+}
+div#location-container-wrapper {
+    width: 100%;
+    float: left;
+    margin: 40px 0;
+}
+div#church-location, div#party-location {
+    width: 50%;
+    min-height: 400px;
+    float: left;
+}
+iframe {
+    width: 480px;
+    height: 480px;
+    border-radius: 4px;
+}
+div#location-container h1 {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 38px;
+}

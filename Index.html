@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Andrei si Sorina</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<header>
+		<nav> <!-- Navbar (sticky bottom) -->
+		  	<div id="navbar-container">
+			    <a href="#home-title">Home</a>
+			    <a href="#first-page-title">Andrei & Sorina</a>
+			    <a href="#wedding-title">Wedding</a>
+			    <a href="#response-title">RSVP</a>
+		  	</div>
+		</nav>
+	</header>
+    <main>
+    	<div class="page first" id="home-title">
+    		<div id="first-page-container">
+			    <h1>Andrei & Sorina</h1>
+			    <h2>Are getting married</h2>
+			    <h1>19.05.2018</h1>
+			</div>
+    	</div>
+    	<div class="page second">
+    		<div id="second-page-container">
+			    <h1 id="first-page-title">Andrei & Sorina</h1>
+			    <div id="image-container"></div>
+			    <p>You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			    <div id="button-container">
+			    	<button><a href="#location-btn">Wedding Details</a></button>
+			    </div>
+			</div>
+    	</div>
+    	<div class="page third">
+    		<div id="introduction-third-page">
+    			<h1>You Are Invited</h1>
+    			<h4>Of course...</h4>
+    		</div>
+    		<div id="third-page-container">
+    			<div id="third-page-container-inner-wrapper">
+	    			<h1 id="wedding-title">The Wedding</h1>
+	    			<div id="the-wedding-img-container"></div>
+	    			<div id="when-where-wrapper">
+	    				<div id="when-container">
+	    					<h2>When</h2>
+	    					<p>Wedding Ceremony - 17:00pm</p>
+	    					<p>Reception & Dinner - 20:00pm</p>
+	    				</div>
+	    				<div id="where-container">
+	    					<h2>Where</h2>
+	    					<p>"Nasterea Maicii Domnului" Church - Strada Vasile Carlova, Câmpulung Moldovenesc</p>
+	    					<p>"Bucovina Grand Salon" - Calea Bucovinei 270, Câmpulung Moldovenesc</p>
+	    				</div>
+	    			</div>
+	    			<div id="location-container">
+	    				<h1 id="location-btn">Location</h1>
+	    				<div id="location-container-wrapper">
+			    			<div id="church-location">
+			    				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1341.102671797963!2d25.574869713838886!3d47.525052829585285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb1a1792a5b858edb!2sBiserica+Na%C8%99terea+Maicii+Domnului+(Biserica+de+Lemn)!5e1!3m2!1sro!2sro!4v1517255482048" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			    			</div>
+			    			<div id="party-location">
+			    				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1340.2016426776838!2d25.62530730347848!3d47.51217095706654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4735bb991cf2a5d3%3A0x93a7c022411de71!2sBucovina+Grand+Salon!5e1!3m2!1sro!2sro!4v1517254446304" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			    			</div>
+			    		</div>
+		    		</div>
+	    		</div>
+    		</div>
+    	</div>
+    	<div class="page fifth">
+    		<div id="fifth-page-container">
+    			<h1 id="response-title">HOPE YOU CAN MAKE IT!</h1>
+    			<h4>Kindly Respond By 28 of April, 2018</h4>
+    			<button onclick="openModal" type="input" id="respond-btn">RSVP</button>
+    			<form id="modal">
+					<div id="modal-container">
+						<i class="fa fa-close" id="x-close"></i>
+						<h1>CAN YOU COME?</h1>
+						<h3>We really hope you can make it.</h3>
+    					<input type="text" placeholder="Name(s)" name="name" required>
+    					<p>Sincerely. Andrei & Sorina</p>
+    					<div id="modal-btn-container">
+    						<button type="button" id="green-btn">Going</button>
+    						<button type="button" id="red-btn">Can't come</button>
+    					</div>
+    				</div>
+    			</form>
+    		</div>
+    	</div>
+    </main>
+    <footer>
+    	<div id="footer-container">
+    		<p>Powered by <a id="send-mail">morosan.ionutandrei@gmail.com</a></p>
+    	</div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
